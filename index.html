@@ -4,39 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Registration Form</title>
+    <link rel="icon" href="favicon-32x32 (1).png">
+    <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
-    <div class="container">
-        <div>
-            <h1>Learn to code by watching others </h1>
-            <p>
-                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable
-            </p>
-        </div>
+    <header>
 
-        <div>
-            <div class="box box-blue">
-                <p>
-                    <strong>Try it Free for 7 days</strong>, then $20/mo thereafter
-                </p>
+    </header>
+    <main>
+        <section>
+            <div class="reg-one">
+                <h1>Learn to code by watching others.</h1>
+                <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
             </div>
+            <div class="reg-two">
+                <div class="free">
+                    <p><span>Try if free for 7 days</span> then $20/mo. thereafter.</p>
+                </div>
+                <form id="register">
+                    
+                    <input type="text" id="first-name" name="first-name" placeholder="First name" required>
+                    <br><br>
+           
+                    <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                    <br><br>
+             
+                    <input type="email" id="email" name="email" placeholder="Email Adress" required>
+                    <br><br>
+               
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <input id="submit" type="submit" value="CLAIM YOUR FREE TRIAL">
+                    <p>By clicking the button you are agreeing to our <a href="#"> Terms and Services</a></p>
+                </form>
+            </div>
+        </section>
 
-            <form class="box">
-                <div class="form-control"><input type="text" placeholder="First Name"></div>
-                <div class="form-control"><input type="text" placeholder="Last Name"></div>
-                <div class="form-control"><input type="text" placeholder="Email Address"></div>
-                <div class="form-control"><input type="text" placeholder="Password"></div>
+    </main>
+    <footer>
 
-                <button>Claim your free trial</button>
-
-                <small>By Clicking the button, you are agreeing to our <a href="">Terms and Services </a></small>
-            </form>
-        </div>
-
-    </div>
-    
-
+    </footer>
 </body>
 </html>
